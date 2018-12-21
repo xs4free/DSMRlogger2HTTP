@@ -112,17 +112,6 @@ Wire Wire Line
 	6325 1825 6325 1725
 Connection ~ 6325 1725
 $Comp
-L Conn_02x04_Odd_Even J2
-U 1 1 5C06DBBF
-P 4375 2025
-F 0 "J2" H 4425 2225 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 4425 1725 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 4375 2025 50  0001 C CNN
-F 3 "" H 4375 2025 50  0001 C CNN
-	1    4375 2025
-	0    -1   -1   0   
-$EndComp
-$Comp
 L RJ11-6 J1
 U 1 1 5C06DD8B
 P 1775 2125
@@ -173,14 +162,6 @@ $EndComp
 NoConn ~ 1800 4725
 NoConn ~ 1800 4925
 NoConn ~ 2225 2025
-NoConn ~ 4275 1725
-NoConn ~ 4375 1725
-NoConn ~ 4475 1725
-NoConn ~ 4575 1725
-NoConn ~ 4575 2225
-NoConn ~ 4475 2225
-NoConn ~ 4375 2225
-NoConn ~ 4275 2225
 Text GLabel 1500 4125 1    60   Input ~ 0
 3V3
 Text GLabel 3875 4125 1    60   Input ~ 0
@@ -323,37 +304,37 @@ Wire Wire Line
 Wire Wire Line
 	7850 4875 7650 4875
 $Comp
-L Conn_01x01_Male J3
+L TEST TP3
 U 1 1 5C06F2AE
-P 4275 2600
-F 0 "J3" H 4275 2700 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 4275 2500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 4275 2600 50  0001 C CNN
-F 3 "" H 4275 2600 50  0001 C CNN
-	1    4275 2600
-	1    0    0    -1  
+P 4475 2600
+F 0 "TP3" H 4475 2875 50  0000 C CNN
+F 1 "3V3" H 4475 2500 50  0001 C CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_d2.0mm" H 4475 2600 50  0001 C CNN
+F 3 "" H 4475 2600 50  0001 C CNN
+	1    4475 2600
+	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x01_Male J4
+L TEST TP4
 U 1 1 5C06F309
-P 4275 2950
-F 0 "J4" H 4275 3050 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 4275 2850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 4275 2950 50  0001 C CNN
-F 3 "" H 4275 2950 50  0001 C CNN
-	1    4275 2950
-	1    0    0    -1  
+P 4475 2950
+F 0 "TP4" H 4475 3225 50  0000 C CNN
+F 1 "5V" H 4475 2850 50  0001 C CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_d2.0mm" H 4475 2950 50  0001 C CNN
+F 3 "" H 4475 2950 50  0001 C CNN
+	1    4475 2950
+	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x01_Male J5
+L TEST TP5
 U 1 1 5C06F384
-P 4275 3225
-F 0 "J5" H 4275 3325 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 4275 3125 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 4275 3225 50  0001 C CNN
-F 3 "" H 4275 3225 50  0001 C CNN
-	1    4275 3225
-	1    0    0    -1  
+P 4475 3225
+F 0 "TP5" H 4475 3500 50  0000 C CNN
+F 1 "GND" H 4475 3125 50  0001 C CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_d2.0mm" H 4475 3225 50  0001 C CNN
+F 3 "" H 4475 3225 50  0001 C CNN
+	1    4475 3225
+	0    -1   -1   0   
 $EndComp
 Text GLabel 4750 3225 2    60   Input ~ 0
 GND
